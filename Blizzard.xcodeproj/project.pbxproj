@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6FF0D2C7BDFF39C72D4A28 /* libPods-Blizzard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C194A76A5B0D81BEE2DD10C1 /* libPods-Blizzard.a */; };
+		550C86161FD915B900AA3978 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C86151FD915B900AA3978 /* TableViewController.m */; };
+		550C861B1FD9163D00AA3978 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C86191FD9163C00AA3978 /* TableViewCell.m */; };
+		550C861C1FD9163D00AA3978 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550C861A1FD9163D00AA3978 /* TableViewCell.xib */; };
+		5537C2D31FD8D83B0052BD03 /* BookModelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537C2D11FD8D83B0052BD03 /* BookModelCell.m */; };
+		5537C2D41FD8D83B0052BD03 /* BookModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5537C2D21FD8D83B0052BD03 /* BookModelCell.xib */; };
+		5539F5631FD66E6C00A29380 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5539F5621FD66E6C00A29380 /* InformationController.m */; };
+		5539F5661FD6727700A29380 /* HMDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5539F5651FD6727700A29380 /* HMDatePickerView.m */; };
+		554A953F1FD51D4B0087049F /* NacigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554A953E1FD51D4B0087049F /* NacigationController.m */; };
+		554B97F01FD79446009A6D7B /* SnowflaksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B97EF1FD79446009A6D7B /* SnowflaksView.m */; };
+		554B97F31FD7C32A009A6D7B /* ZQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B97F21FD7C32A009A6D7B /* ZQTabBar.m */; };
+		554B97FF1FD7DE61009A6D7B /* books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 554B97FE1FD7DE61009A6D7B /* books.plist */; };
+		554B98021FD7DF34009A6D7B /* SABookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B98011FD7DF33009A6D7B /* SABookModel.m */; };
+		554D21B11FD11D4D00D31E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21B01FD11D4D00D31E08 /* AppDelegate.m */; };
+		554D21B41FD11D4D00D31E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21B31FD11D4D00D31E08 /* ViewController.m */; };
+		554D21B71FD11D4D00D31E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554D21B51FD11D4D00D31E08 /* Main.storyboard */; };
+		554D21B91FD11D4D00D31E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554D21B81FD11D4D00D31E08 /* Assets.xcassets */; };
+		554D21BC1FD11D4D00D31E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554D21BA1FD11D4D00D31E08 /* LaunchScreen.storyboard */; };
+		554D21BF1FD11D4D00D31E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21BE1FD11D4D00D31E08 /* main.m */; };
+		554D21C91FD11D4D00D31E08 /* BlizzardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21C81FD11D4D00D31E08 /* BlizzardTests.m */; };
+		554D21D41FD11D4E00D31E08 /* BlizzardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21D31FD11D4E00D31E08 /* BlizzardUITests.m */; };
+		554D21E31FD11E2F00D31E08 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21E21FD11E2F00D31E08 /* TabBarController.m */; };
+		554D21EE1FD1281200D31E08 /* ZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21ED1FD1281200D31E08 /* ZoneController.m */; };
+		554D21F11FD1282600D31E08 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21F01FD1282600D31E08 /* MineController.m */; };
+		554D21F41FD1283D00D31E08 /* RecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D21F31FD1283D00D31E08 /* RecommendController.m */; };
+		555024391FDA42360021C733 /* greenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 555024381FDA42360021C733 /* greenView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554D21C51FD11D4D00D31E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554D21A41FD11D4D00D31E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554D21AB1FD11D4D00D31E08;
+			remoteInfo = Blizzard;
+		};
+		554D21D01FD11D4E00D31E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554D21A41FD11D4D00D31E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554D21AB1FD11D4D00D31E08;
+			remoteInfo = Blizzard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550C86141FD915B900AA3978 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		550C86151FD915B900AA3978 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		550C86171FD9161B00AA3978 /* constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		550C86181FD9163C00AA3978 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		550C86191FD9163C00AA3978 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		550C861A1FD9163D00AA3978 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		5537C2D01FD8D83B0052BD03 /* BookModelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookModelCell.h; sourceTree = "<group>"; };
+		5537C2D11FD8D83B0052BD03 /* BookModelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookModelCell.m; sourceTree = "<group>"; };
+		5537C2D21FD8D83B0052BD03 /* BookModelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookModelCell.xib; sourceTree = "<group>"; };
+		5539F5611FD66E6C00A29380 /* InformationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
+		5539F5621FD66E6C00A29380 /* InformationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
+		5539F5641FD6727700A29380 /* HMDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMDatePickerView.h; sourceTree = "<group>"; };
+		5539F5651FD6727700A29380 /* HMDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMDatePickerView.m; sourceTree = "<group>"; };
+		554A953D1FD51D4B0087049F /* NacigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NacigationController.h; sourceTree = "<group>"; };
+		554A953E1FD51D4B0087049F /* NacigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NacigationController.m; sourceTree = "<group>"; };
+		554B97EE1FD79446009A6D7B /* SnowflaksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowflaksView.h; sourceTree = "<group>"; };
+		554B97EF1FD79446009A6D7B /* SnowflaksView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowflaksView.m; sourceTree = "<group>"; };
+		554B97F11FD7C32A009A6D7B /* ZQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQTabBar.h; sourceTree = "<group>"; };
+		554B97F21FD7C32A009A6D7B /* ZQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTabBar.m; sourceTree = "<group>"; };
+		554B97FE1FD7DE61009A6D7B /* books.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = books.plist; sourceTree = "<group>"; };
+		554B98001FD7DF33009A6D7B /* SABookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SABookModel.h; sourceTree = "<group>"; };
+		554B98011FD7DF33009A6D7B /* SABookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SABookModel.m; sourceTree = "<group>"; };
+		554D21AC1FD11D4D00D31E08 /* Blizzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blizzard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554D21AF1FD11D4D00D31E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		554D21B01FD11D4D00D31E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		554D21B21FD11D4D00D31E08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		554D21B31FD11D4D00D31E08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		554D21B61FD11D4D00D31E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554D21B81FD11D4D00D31E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		554D21BB1FD11D4D00D31E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		554D21BD1FD11D4D00D31E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554D21BE1FD11D4D00D31E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		554D21C41FD11D4D00D31E08 /* BlizzardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlizzardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554D21C81FD11D4D00D31E08 /* BlizzardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlizzardTests.m; sourceTree = "<group>"; };
+		554D21CA1FD11D4E00D31E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554D21CF1FD11D4E00D31E08 /* BlizzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlizzardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554D21D31FD11D4E00D31E08 /* BlizzardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlizzardUITests.m; sourceTree = "<group>"; };
+		554D21D51FD11D4E00D31E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554D21E11FD11E2F00D31E08 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		554D21E21FD11E2F00D31E08 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		554D21EC1FD1281200D31E08 /* ZoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoneController.h; sourceTree = "<group>"; };
+		554D21ED1FD1281200D31E08 /* ZoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoneController.m; sourceTree = "<group>"; };
+		554D21EF1FD1282600D31E08 /* MineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		554D21F01FD1282600D31E08 /* MineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		554D21F21FD1283D00D31E08 /* RecommendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendController.h; sourceTree = "<group>"; };
+		554D21F31FD1283D00D31E08 /* RecommendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendController.m; sourceTree = "<group>"; };
+		555024371FDA42360021C733 /* greenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greenView.h; sourceTree = "<group>"; };
+		555024381FDA42360021C733 /* greenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenView.m; sourceTree = "<group>"; };
+		6687C65BAD96C297D9484CFB /* Pods-Blizzard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blizzard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blizzard/Pods-Blizzard.release.xcconfig"; sourceTree = "<group>"; };
+		8DBF9334840DFDE43B67E2CD /* Pods-Blizzard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blizzard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blizzard/Pods-Blizzard.debug.xcconfig"; sourceTree = "<group>"; };
+		C194A76A5B0D81BEE2DD10C1 /* libPods-Blizzard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Blizzard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554D21A91FD11D4D00D31E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6FF0D2C7BDFF39C72D4A28 /* libPods-Blizzard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21C11FD11D4D00D31E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21CC1FD11D4E00D31E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07312B80CBFB5AA60F8E9BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C194A76A5B0D81BEE2DD10C1 /* libPods-Blizzard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554D21A31FD11D4D00D31E08 = {
+			isa = PBXGroup;
+			children = (
+				554D21AE1FD11D4D00D31E08 /* Blizzard */,
+				554D21C71FD11D4D00D31E08 /* BlizzardTests */,
+				554D21D21FD11D4E00D31E08 /* BlizzardUITests */,
+				554D21AD1FD11D4D00D31E08 /* Products */,
+				D72D837E8C8B6B87E65EB2D0 /* Pods */,
+				07312B80CBFB5AA60F8E9BBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		554D21AD1FD11D4D00D31E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554D21AC1FD11D4D00D31E08 /* Blizzard.app */,
+				554D21C41FD11D4D00D31E08 /* BlizzardTests.xctest */,
+				554D21CF1FD11D4E00D31E08 /* BlizzardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554D21AE1FD11D4D00D31E08 /* Blizzard */ = {
+			isa = PBXGroup;
+			children = (
+				554D21AF1FD11D4D00D31E08 /* AppDelegate.h */,
+				554D21B01FD11D4D00D31E08 /* AppDelegate.m */,
+				554D21B21FD11D4D00D31E08 /* ViewController.h */,
+				554D21B31FD11D4D00D31E08 /* ViewController.m */,
+				554D21E81FD127A700D31E08 /* tabbar */,
+				554D21E71FD127A500D31E08 /* zixun */,
+				554D21E61FD127A200D31E08 /* shequ */,
+				554D21E51FD127A000D31E08 /* wode */,
+				554D21E41FD1279D00D31E08 /* jingxuan */,
+				554D21B51FD11D4D00D31E08 /* Main.storyboard */,
+				554D21B81FD11D4D00D31E08 /* Assets.xcassets */,
+				554D21BA1FD11D4D00D31E08 /* LaunchScreen.storyboard */,
+				554D21BD1FD11D4D00D31E08 /* Info.plist */,
+				554D21BE1FD11D4D00D31E08 /* main.m */,
+			);
+			path = Blizzard;
+			sourceTree = "<group>";
+		};
+		554D21C71FD11D4D00D31E08 /* BlizzardTests */ = {
+			isa = PBXGroup;
+			children = (
+				554D21C81FD11D4D00D31E08 /* BlizzardTests.m */,
+				554D21CA1FD11D4E00D31E08 /* Info.plist */,
+			);
+			path = BlizzardTests;
+			sourceTree = "<group>";
+		};
+		554D21D21FD11D4E00D31E08 /* BlizzardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				554D21D31FD11D4E00D31E08 /* BlizzardUITests.m */,
+				554D21D51FD11D4E00D31E08 /* Info.plist */,
+			);
+			path = BlizzardUITests;
+			sourceTree = "<group>";
+		};
+		554D21E41FD1279D00D31E08 /* jingxuan */ = {
+			isa = PBXGroup;
+			children = (
+				554D21F21FD1283D00D31E08 /* RecommendController.h */,
+				554D21F31FD1283D00D31E08 /* RecommendController.m */,
+				554B97EE1FD79446009A6D7B /* SnowflaksView.h */,
+				554B97EF1FD79446009A6D7B /* SnowflaksView.m */,
+			);
+			path = jingxuan;
+			sourceTree = "<group>";
+		};
+		554D21E51FD127A000D31E08 /* wode */ = {
+			isa = PBXGroup;
+			children = (
+				554D21EF1FD1282600D31E08 /* MineController.h */,
+				554D21F01FD1282600D31E08 /* MineController.m */,
+				554B98001FD7DF33009A6D7B /* SABookModel.h */,
+				554B98011FD7DF33009A6D7B /* SABookModel.m */,
+				5537C2D01FD8D83B0052BD03 /* BookModelCell.h */,
+				5537C2D11FD8D83B0052BD03 /* BookModelCell.m */,
+				5537C2D21FD8D83B0052BD03 /* BookModelCell.xib */,
+				554B97FE1FD7DE61009A6D7B /* books.plist */,
+			);
+			path = wode;
+			sourceTree = "<group>";
+		};
+		554D21E61FD127A200D31E08 /* shequ */ = {
+			isa = PBXGroup;
+			children = (
+				554D21EC1FD1281200D31E08 /* ZoneController.h */,
+				554D21ED1FD1281200D31E08 /* ZoneController.m */,
+				555024371FDA42360021C733 /* greenView.h */,
+				555024381FDA42360021C733 /* greenView.m */,
+				550C86141FD915B900AA3978 /* TableViewController.h */,
+				550C86151FD915B900AA3978 /* TableViewController.m */,
+				550C86181FD9163C00AA3978 /* TableViewCell.h */,
+				550C86191FD9163C00AA3978 /* TableViewCell.m */,
+				550C861A1FD9163D00AA3978 /* TableViewCell.xib */,
+				550C86171FD9161B00AA3978 /* constant.h */,
+			);
+			path = shequ;
+			sourceTree = "<group>";
+		};
+		554D21E71FD127A500D31E08 /* zixun */ = {
+			isa = PBXGroup;
+			children = (
+				5539F5611FD66E6C00A29380 /* InformationController.h */,
+				5539F5621FD66E6C00A29380 /* InformationController.m */,
+				5539F5641FD6727700A29380 /* HMDatePickerView.h */,
+				5539F5651FD6727700A29380 /* HMDatePickerView.m */,
+			);
+			path = zixun;
+			sourceTree = "<group>";
+		};
+		554D21E81FD127A700D31E08 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				554D21E11FD11E2F00D31E08 /* TabBarController.h */,
+				554D21E21FD11E2F00D31E08 /* TabBarController.m */,
+				554A953D1FD51D4B0087049F /* NacigationController.h */,
+				554A953E1FD51D4B0087049F /* NacigationController.m */,
+				554B97F11FD7C32A009A6D7B /* ZQTabBar.h */,
+				554B97F21FD7C32A009A6D7B /* ZQTabBar.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		D72D837E8C8B6B87E65EB2D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DBF9334840DFDE43B67E2CD /* Pods-Blizzard.debug.xcconfig */,
+				6687C65BAD96C297D9484CFB /* Pods-Blizzard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554D21AB1FD11D4D00D31E08 /* Blizzard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554D21D81FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "Blizzard" */;
+			buildPhases = (
+				B0544ABDDB0854BD9115C59B /* [CP] Check Pods Manifest.lock */,
+				554D21A81FD11D4D00D31E08 /* Sources */,
+				554D21A91FD11D4D00D31E08 /* Frameworks */,
+				554D21AA1FD11D4D00D31E08 /* Resources */,
+				60D30B30734A9F4FE0670377 /* [CP] Embed Pods Frameworks */,
+				ACA04787D8C8BE046EB3DC89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blizzard;
+			productName = Blizzard;
+			productReference = 554D21AC1FD11D4D00D31E08 /* Blizzard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		554D21C31FD11D4D00D31E08 /* BlizzardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554D21DB1FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "BlizzardTests" */;
+			buildPhases = (
+				554D21C01FD11D4D00D31E08 /* Sources */,
+				554D21C11FD11D4D00D31E08 /* Frameworks */,
+				554D21C21FD11D4D00D31E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554D21C61FD11D4D00D31E08 /* PBXTargetDependency */,
+			);
+			name = BlizzardTests;
+			productName = BlizzardTests;
+			productReference = 554D21C41FD11D4D00D31E08 /* BlizzardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		554D21CE1FD11D4E00D31E08 /* BlizzardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554D21DE1FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "BlizzardUITests" */;
+			buildPhases = (
+				554D21CB1FD11D4E00D31E08 /* Sources */,
+				554D21CC1FD11D4E00D31E08 /* Frameworks */,
+				554D21CD1FD11D4E00D31E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554D21D11FD11D4E00D31E08 /* PBXTargetDependency */,
+			);
+			name = BlizzardUITests;
+			productName = BlizzardUITests;
+			productReference = 554D21CF1FD11D4E00D31E08 /* BlizzardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554D21A41FD11D4D00D31E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = slcf888;
+				TargetAttributes = {
+					554D21AB1FD11D4D00D31E08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					554D21C31FD11D4D00D31E08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 554D21AB1FD11D4D00D31E08;
+					};
+					554D21CE1FD11D4E00D31E08 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 554D21AB1FD11D4D00D31E08;
+					};
+				};
+			};
+			buildConfigurationList = 554D21A71FD11D4D00D31E08 /* Build configuration list for PBXProject "Blizzard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554D21A31FD11D4D00D31E08;
+			productRefGroup = 554D21AD1FD11D4D00D31E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554D21AB1FD11D4D00D31E08 /* Blizzard */,
+				554D21C31FD11D4D00D31E08 /* BlizzardTests */,
+				554D21CE1FD11D4E00D31E08 /* BlizzardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554D21AA1FD11D4D00D31E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554D21BC1FD11D4D00D31E08 /* LaunchScreen.storyboard in Resources */,
+				550C861C1FD9163D00AA3978 /* TableViewCell.xib in Resources */,
+				554D21B91FD11D4D00D31E08 /* Assets.xcassets in Resources */,
+				554D21B71FD11D4D00D31E08 /* Main.storyboard in Resources */,
+				5537C2D41FD8D83B0052BD03 /* BookModelCell.xib in Resources */,
+				554B97FF1FD7DE61009A6D7B /* books.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21C21FD11D4D00D31E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21CD1FD11D4E00D31E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60D30B30734A9F4FE0670377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blizzard/Pods-Blizzard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA04787D8C8BE046EB3DC89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blizzard/Pods-Blizzard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0544ABDDB0854BD9115C59B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554D21A81FD11D4D00D31E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554D21B41FD11D4D00D31E08 /* ViewController.m in Sources */,
+				554D21E31FD11E2F00D31E08 /* TabBarController.m in Sources */,
+				554D21EE1FD1281200D31E08 /* ZoneController.m in Sources */,
+				554D21BF1FD11D4D00D31E08 /* main.m in Sources */,
+				5539F5631FD66E6C00A29380 /* InformationController.m in Sources */,
+				5539F5661FD6727700A29380 /* HMDatePickerView.m in Sources */,
+				555024391FDA42360021C733 /* greenView.m in Sources */,
+				554B97F01FD79446009A6D7B /* SnowflaksView.m in Sources */,
+				554A953F1FD51D4B0087049F /* NacigationController.m in Sources */,
+				554B97F31FD7C32A009A6D7B /* ZQTabBar.m in Sources */,
+				554B98021FD7DF34009A6D7B /* SABookModel.m in Sources */,
+				554D21B11FD11D4D00D31E08 /* AppDelegate.m in Sources */,
+				5537C2D31FD8D83B0052BD03 /* BookModelCell.m in Sources */,
+				554D21F41FD1283D00D31E08 /* RecommendController.m in Sources */,
+				550C861B1FD9163D00AA3978 /* TableViewCell.m in Sources */,
+				550C86161FD915B900AA3978 /* TableViewController.m in Sources */,
+				554D21F11FD1282600D31E08 /* MineController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21C01FD11D4D00D31E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554D21C91FD11D4D00D31E08 /* BlizzardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D21CB1FD11D4E00D31E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554D21D41FD11D4E00D31E08 /* BlizzardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554D21C61FD11D4D00D31E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554D21AB1FD11D4D00D31E08 /* Blizzard */;
+			targetProxy = 554D21C51FD11D4D00D31E08 /* PBXContainerItemProxy */;
+		};
+		554D21D11FD11D4E00D31E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554D21AB1FD11D4D00D31E08 /* Blizzard */;
+			targetProxy = 554D21D01FD11D4E00D31E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554D21B51FD11D4D00D31E08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554D21B61FD11D4D00D31E08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		554D21BA1FD11D4D00D31E08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554D21BB1FD11D4D00D31E08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554D21D61FD11D4E00D31E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		554D21D71FD11D4E00D31E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		554D21D91FD11D4E00D31E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBF9334840DFDE43B67E2CD /* Pods-Blizzard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Blizzard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.Blizzard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		554D21DA1FD11D4E00D31E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6687C65BAD96C297D9484CFB /* Pods-Blizzard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Blizzard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.Blizzard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		554D21DC1FD11D4E00D31E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlizzardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.BlizzardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blizzard.app/Blizzard";
+			};
+			name = Debug;
+		};
+		554D21DD1FD11D4E00D31E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlizzardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.BlizzardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blizzard.app/Blizzard";
+			};
+			name = Release;
+		};
+		554D21DF1FD11D4E00D31E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlizzardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.BlizzardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blizzard;
+			};
+			name = Debug;
+		};
+		554D21E01FD11D4E00D31E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlizzardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slcf888.BlizzardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blizzard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554D21A71FD11D4D00D31E08 /* Build configuration list for PBXProject "Blizzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554D21D61FD11D4E00D31E08 /* Debug */,
+				554D21D71FD11D4E00D31E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554D21D81FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "Blizzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554D21D91FD11D4E00D31E08 /* Debug */,
+				554D21DA1FD11D4E00D31E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554D21DB1FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "BlizzardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554D21DC1FD11D4E00D31E08 /* Debug */,
+				554D21DD1FD11D4E00D31E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554D21DE1FD11D4E00D31E08 /* Build configuration list for PBXNativeTarget "BlizzardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554D21DF1FD11D4E00D31E08 /* Debug */,
+				554D21E01FD11D4E00D31E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554D21A41FD11D4D00D31E08 /* Project object */;
+}
